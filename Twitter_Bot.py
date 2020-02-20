@@ -41,15 +41,15 @@ def execute():
 window = Tk()
 window.title("Twitter Bot")
 window.geometry("700x600")
-emails=Label(window,text="enter your email  here",bg='blue',font='times 24 bold')
+emails=Label(window,text="Enter your email  here",bg='blue',font='times 24 bold')
 emails.grid(row=0,column=0,sticky='NW')
 entry1=Entry(window).grid(row=0,column=6)
 
-password=Label(window,text="enter your password  here",bg='purple',font='times 24 bold')
+password=Label(window,text="Enter your password  here",bg='purple',font='times 24 bold')
 password.grid(row=2,column=0,sticky='NW')
 entry2=Entry(window).grid(row=2,column=6)
 
-hashtag=Label(window,text="enter your email here",bg='green',font='times 24 bold')
+hashtag=Label(window,text="enter your Hashtag here",bg='green',font='times 24 bold')
 hashtag.grid(row=3,column=0,sticky='NW')
 entry3=Entry(window).grid(row=3,column=6)
 
